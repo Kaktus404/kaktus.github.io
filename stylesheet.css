@@ -1,0 +1,66 @@
+body {
+  font-family: calibri;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+
+.containerLeiste {
+  position: relative;
+  left: 1165px;
+  top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 150px;
+  border: 1px solid #2e2e2e;
+  margin: 5px;
+}
+
+.itemLeiste {
+  font-size: 30px;
+  font-family: calibri Light;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  text-align: center;
+  background-color: lightBlue;
+  margin: 3px;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px  1px 1px black,
+                1px -1px 1px black,
+                -1px  1px 1px black,
+                -1px -1px 1px black;
+  font-family: calibri Light;
+  font-size: 100px;
+  position: relative;
+  left: 50px;
+  bottom: 150px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 3px #2e2e2e; #414141
+}
+
+.containerRezept {
+  display: flex;
+  flexdirection: row;
+  flexwrap: wrap;
+  width: 150px;
+  border: 1px solid #2e2e2e;
+  margin: 5px;
+}
+
+h2 {
+  font-family: calibri Light;
+}
+
+.indexImg {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  Z-index: -1;
+}

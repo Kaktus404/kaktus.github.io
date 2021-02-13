@@ -1,0 +1,44 @@
+body {
+  font-family: calibri;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #08013A;
+}
+
+.containerLeiste {
+  position: relative;
+  left: 1170px;
+  top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 150px;
+  border: 1px solid #08013A;
+}
+
+.itemLeiste {
+font-size: 30px;
+font-family: calibri Light;
+flex-wrap: wrap;
+flex-grow: 1;
+text-align: center;
+background-color: lightBlue;
+margin: 3px;
+}
+
+
+h1 {
+  color: #414141;
+  font-family: calibri Light;
+  font-size: 100px;
+  position: relative;
+  left: 50px;
+  bottom: 30px;
+}
+
+
+h2 {
+  font-family: calibri Light;
+}
